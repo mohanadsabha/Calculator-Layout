@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		E6EE650C288E2FEE00233A97 /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6EE650C288E2FEE00233A97 /* Calculator Layout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Calculator Layout.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6EE650F288E2FEE00233A97 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E6EE6511288E2FEE00233A97 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		E6EE6513288E2FEE00233A97 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		E6EE650D288E2FEE00233A97 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E6EE650C288E2FEE00233A97 /* Calculator.app */,
+				E6EE650C288E2FEE00233A97 /* Calculator Layout.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,9 +70,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		E6EE650B288E2FEE00233A97 /* Calculator */ = {
+		E6EE650B288E2FEE00233A97 /* Calculator Layout */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E6EE6520288E2FEF00233A97 /* Build configuration list for PBXNativeTarget "Calculator" */;
+			buildConfigurationList = E6EE6520288E2FEF00233A97 /* Build configuration list for PBXNativeTarget "Calculator Layout" */;
 			buildPhases = (
 				E6EE6508288E2FEE00233A97 /* Sources */,
 				E6EE6509288E2FEE00233A97 /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = Calculator;
+			name = "Calculator Layout";
 			productName = Calculator;
-			productReference = E6EE650C288E2FEE00233A97 /* Calculator.app */;
+			productReference = E6EE650C288E2FEE00233A97 /* Calculator Layout.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E6EE6507288E2FEE00233A97 /* Build configuration list for PBXProject "Calculator" */;
+			buildConfigurationList = E6EE6507288E2FEE00233A97 /* Build configuration list for PBXProject "Calculator Layout" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				E6EE650B288E2FEE00233A97 /* Calculator */,
+				E6EE650B288E2FEE00233A97 /* Calculator Layout */,
 			);
 		};
 /* End PBXProject section */
@@ -290,11 +290,14 @@
 				DEVELOPMENT_TEAM = J676PUS67K;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Calculator/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Calculator Layout";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,7 +307,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -318,11 +321,14 @@
 				DEVELOPMENT_TEAM = J676PUS67K;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Calculator/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Calculator Layout";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -332,14 +338,14 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E6EE6507288E2FEE00233A97 /* Build configuration list for PBXProject "Calculator" */ = {
+		E6EE6507288E2FEE00233A97 /* Build configuration list for PBXProject "Calculator Layout" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E6EE651E288E2FEF00233A97 /* Debug */,
@@ -348,7 +354,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E6EE6520288E2FEF00233A97 /* Build configuration list for PBXNativeTarget "Calculator" */ = {
+		E6EE6520288E2FEF00233A97 /* Build configuration list for PBXNativeTarget "Calculator Layout" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E6EE6521288E2FEF00233A97 /* Debug */,
